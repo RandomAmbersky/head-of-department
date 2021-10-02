@@ -1,5 +1,5 @@
 [package]
-name = "rust-test"
+name = "head_of_departament"
 version = "0.1.0"
 authors = ["Random Ambersky"]
 edition = "2018"
