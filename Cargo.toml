@@ -1,0 +1,11 @@
+[package]
+name = "rust-test"
+version = "0.1.0"
+authors = ["Random Ambersky"]
+edition = "2018"
+
+[dependencies.wasm-bindgen]
+version = "*"
+
+[lib]
+crate-type = ["cdylib"]
