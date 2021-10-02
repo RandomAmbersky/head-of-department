@@ -32,7 +32,7 @@
 		}
 	}
 
-	pub(crate) fn process_event(ev: Event<()>, control_flow: &mut ControlFlow) {
+	pub fn process_event(ev: Event<()>, control_flow: &mut ControlFlow) {
 		match ev {
 			Event::NewEvents(_) => {},
 			Event::WindowEvent { window_id, event } => {
